@@ -15,6 +15,7 @@ import org.apache.spark.mllib.clustering.{LDAModel, _}
 import scala.util.{Success, Try}
 import org.apache.spark.mllib.linalg.{Matrix, Vector, Vectors}
 import org.apache.spark.mllib.clustering.{LDAModel, _}
+import scala.collection.mutable.WrappedArray
 import Puma.Processor._
 import Puma.Constants._
 import Puma.Utils._
@@ -88,4 +89,7 @@ object Main extends Serializable {
   val orderedProxyRecords = filteredScored.orderBy("score")
 
 
+  //To select the max probability int he ip to topic mix
+  val ff = udf((p: WrappedArray[Double]) => p.toArray.max)
+  ipToTopicMix.withColumn("maxV", ff($"topic_prob_mix")).show
 }
