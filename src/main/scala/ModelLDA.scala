@@ -16,10 +16,11 @@ object ModelLDA {
     import spark.sqlContext.implicits._
 
     ldaModel match {
-      case model: DistributedLDAModel => {val localLDAModel: LocalLDAModel = ldaModel.asInstanceOf[LocalLDAModel]
+      case model: DistributedLDAModel => {
+        val distributedLDAModel: DistributedLDAModel = ldaModel.asInstanceOf[DistributedLDAModel]
 
-        val topicDistributions = localLDAModel.topicDistributions(ldaCorpus)
-        val topicMix = localLDAModel.topicsMatrix
+        val topicDistributions = distributedLDAModel.topicDistributions
+        val topicsMatrix = distributedLDAModel.topicsMatrix
 
         (topicDistributions, topicMix)}
 
