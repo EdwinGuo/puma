@@ -8,3 +8,4 @@ https://dzone.com/articles/spark-lda-a-complete-example-of-clustering-algorit
 http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/
 https://github.com/shiv4nsh/spark-LDA-example/blob/master/src/main/scala/LDAExample.scala
 https://github.com/pcejrowski/spark-lda-example/blob/master/src/main/scala/pl/pcejrowski/LdaTopics.scala
+https://github.com/zaratsian/Spark/blob/7796387b64abd3ea2f449e16f241f98ccab1bb5f/text_analytics_datadriven_topics.py
