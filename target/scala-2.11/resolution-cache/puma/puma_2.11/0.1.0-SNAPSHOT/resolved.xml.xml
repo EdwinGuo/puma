@@ -4,7 +4,7 @@
 		module="puma_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20171203120143"
+		publication="20181217115823"
 	>
 		<description>
 		puma

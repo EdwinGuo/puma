@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/edwinguo/edwin/puma/StringTest.java:1:13: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0mpublic char FindTheDiff(String input1, String input2) {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/edwinguo/edwin/puma/StringTest.java:10:20: unclosed character literal[0m
+[0m[[0m[31merror[0m] [0m[0m    char result = '';[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/edwinguo/edwin/puma/StringTest.java:19:20: unclosed character literal[0m
+[0m[[0m[31merror[0m] [0m[0m    if (result == '')[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
