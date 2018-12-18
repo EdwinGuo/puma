@@ -33,8 +33,6 @@ object ModelLDA {
         (topicDistributions, topicMix)
       }
     }
-
-
   }
 
 

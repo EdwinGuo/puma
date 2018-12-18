@@ -21,4 +21,6 @@ object Constants {
 
   val WordError = "word_error"
   val ScoreError = -1d
+
+  val SparkJobSerializer = "org.apache.spark.serializer.KryoSerializer"
 }
