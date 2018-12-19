@@ -1,4 +1,4 @@
-package parserJob
+package sparkJob
 
 import org.apache.commons.lang.SystemUtils
 import org.apache.spark.SparkContext
